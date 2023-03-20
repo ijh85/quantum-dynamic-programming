@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Each solution is implemented as a separate Python script. The `hybrid_solution.py` and `quantum_solution.py` scripts require access to a D-Wave quantum annealer. Before running a script, adjust the algorithm parameters and set the results to either print or save to a directory.
+Each solution is implemented as a separate Python script. The `hybrid_solution.py` and `quantum_solution.py` scripts require access to a D-Wave quantum annealer. Before running a script, adjust the algorithm's parameters and set the results to either print or save to a directory.
 
 ```bash
 python classical_solution.py
