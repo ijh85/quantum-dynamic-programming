@@ -463,7 +463,7 @@ class QuantumSolution:
 
 if __name__ == '__main__':
     # Set number of executions.
-    NUM_EXECUTIONS = 10
+    NUM_EXECUTIONS = 2
 
     # Define list to collect results.
     results_list = []

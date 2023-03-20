@@ -271,7 +271,7 @@ class HybridSolution:
 
 if __name__ == '__main__':
     # Number of executions.
-    NUM_EXECUTIONS = 50
+    NUM_EXECUTIONS = 2
 
     # Define empty lists to hold results.
     result_list = []
