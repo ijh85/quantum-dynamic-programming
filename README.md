@@ -1,4 +1,4 @@
-# Dynamic Programming for Economic Problems on a Quantum Annealer
+# Dynamic Programming on a Quantum Annealer
 
 This repository contains a Python implementation of the algorithms introduced in Fernández-Villaverde and Hull (2022). It includes classical, classical combinatorial, hybrid, and quantum algorithms for solving dynamic programming problems in economics, and applies those algorithms to solve the Real Business Cycle (RBC) model. More generally, the novel use of reverse and inhomogenous annealing in Fernández-Villaverde and Hull (2022) can be applied to solve iterative algorithms on a quantum annealer without hybridizing the problem.
 
