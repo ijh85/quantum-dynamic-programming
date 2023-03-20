@@ -17,14 +17,14 @@ This repository contains a Python implementation of the algorithms introduced in
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/username/rbc-model-solver.git
-cd rbc-model-solver
+git clone https://github.com/ijh85/quantum-dynamic-programming.git
+cd quantum-dynamic-programming
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-Each solution is implemented as a separate Python script. The `hybrid_solution.py` and `quantum_solution.py` scripts require access to a D-Wave quantum annealer. Run the desired solution script as follows:
+Each solution is implemented as a separate Python script. The `hybrid_solution.py` and `quantum_solution.py` scripts require access to a D-Wave quantum annealer. Before running a script, adjust the algorithm parameters and set the results to either print or save to a directory.
 
 ```bash
 python classical_solution.py
