@@ -24,25 +24,25 @@ pip install -r requirements.txt
 
 ## Usage
 
-Each solution is implemented as a separate Python script. The `hybrid_solution.py` and `quantum_solution.py` scripts require access to a D-Wave quantum annealer. Before running a script, adjust the algorithm's parameters and set the results to either print or save to a directory.
+Each solution is implemented as a separate Python script. The `hybrid.py` and `quantum.py` scripts require access to a D-Wave quantum annealer. Before running a script, adjust the algorithm's parameters and set the results to either print or save to a directory.
 
 ```bash
-python classical_solution.py
+python classical.py
 ```
 
 ## Solutions
 
 ### Classical Solution
-The classical solution (`classical_solution.py`) uses parametric policy iteration (PPI) to find the optimal policy and valuation function parameters. It is implemented as an iterative algorithm, following Benitez-Silva et al. (2000).
+The classical solution (`classical.py`) uses parametric policy iteration (PPI) to find the optimal policy and valuation function parameters. It is implemented as an iterative algorithm, following Benitez-Silva et al. (2000).
 
 ### Classical Combinatorial Solution
-The classical combinatorial solution (`classical_combinatorial_solution.py`) modifies the PPI solution by reframing the policy valuation step as a combinatorial optimization problem.
+The classical combinatorial solution (`classical_combinatorial.py`) modifies the PPI solution by reframing the policy valuation step as a combinatorial optimization problem.
 
 ### Hybrid Solution
-The hybrid solution (`hybrid_solution.py`) combines both classical and quantum components. It employs a quantum annealer to solve the policy valuation step, while the policy improvement step is computed classically.
+The hybrid solution (`hybrid.py`) combines both classical and quantum components. It employs a quantum annealer to solve the policy valuation step, while the policy improvement step is computed classically.
 
 ### Quantum Solution
-The quantum solutions (`quantum_solution.py`) use a quantum annealer to solve the RBC model with two different algorithms. Both algorithms encode the problem as a QUBO. The optimal policy and value function parameters are found through an iterative process across anneals or within an anneal that relies on the use of reverse and inhomogenous annealing.
+The quantum solutions (`quantum.py`) use a quantum annealer to solve the RBC model with two different algorithms. Both algorithms encode the problem as a QUBO. The optimal policy and value function parameters are found through an iterative process across anneals or within an anneal that relies on the use of reverse and inhomogenous annealing.
 
 ## References
 
